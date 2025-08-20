@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/justincatingub/Desktop/school/DSA/Activities/arrayList/variation1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003908, symSize: 0x218 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003908, symSize: 0x218 }
+  - { offsetInCU: 0x78, offset: 0x78, size: 0x8, addend: 0x0, symName: _initialize, symObjAddr: 0x218, symBinAddr: 0x100003B20, symSize: 0x38 }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x250, symBinAddr: 0x100003B58, symSize: 0x88 }
+  - { offsetInCU: 0xE2, offset: 0xE2, size: 0x8, addend: 0x0, symName: _insertPos, symObjAddr: 0x2D8, symBinAddr: 0x100003BE0, symSize: 0x108 }
+  - { offsetInCU: 0x143, offset: 0x143, size: 0x8, addend: 0x0, symName: _deletePos, symObjAddr: 0x3E0, symBinAddr: 0x100003CE8, symSize: 0xE4 }
+  - { offsetInCU: 0x196, offset: 0x196, size: 0x8, addend: 0x0, symName: _locate, symObjAddr: 0x4C4, symBinAddr: 0x100003DCC, symSize: 0x8C }
+  - { offsetInCU: 0x1E9, offset: 0x1E9, size: 0x8, addend: 0x0, symName: _insertSorted, symObjAddr: 0x550, symBinAddr: 0x100003E58, symSize: 0xBC }
+...
