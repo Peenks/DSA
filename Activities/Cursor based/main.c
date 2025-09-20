@@ -57,10 +57,14 @@ void insertLast(List *L, VHeap *V, int e) {
     if (n != -1) {
         V->H[n].elem = e;
         V->H[n].next = -1;
-        if (*L == -1) *L = n;
-        else {
+
+        if (*L == -1) {
+            *L = n;
+        } else {
             int t = *L;
-            while (V->H[t].next != -1) t = V->H[t].next;
+            while (V->H[t].next != -1) {
+                t = V->H[t].next;
+            }
             V->H[t].next = n;
         }
     } else {
